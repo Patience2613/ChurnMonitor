@@ -20,7 +20,7 @@ function App() {
   const [editingData, setEditingData] = useState({});
 
   useEffect(() => {
-    document.title = "ChurnMonitor"; // Set browser tab title
+    document.title = "ChurnMonitor";
     fetchCustomers();
   }, []);
 

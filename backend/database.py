@@ -2,7 +2,6 @@ from sqlalchemy import create_engine, Column, Integer, Float, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-# Replace with your PostgreSQL credentials
 DATABASE_URL = "postgresql://postgres:barbie@localhost:5432/churn_db"
 
 engine = create_engine(DATABASE_URL)
